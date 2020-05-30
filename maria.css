@@ -1,0 +1,88 @@
+.logo{
+    margin-right: auto;
+    /* border: .5px solid purple; */
+    width: 17.6%;
+    height: 261px;
+    float: left;
+    position: absolute;
+    top: 1%;
+}
+
+.heading{
+    /* border: .5px solid yellow; */
+    width: 81.5%;
+    margin-left: 17.6%;
+    position: absolute;
+    top: 1%;
+    float: left;
+    height: 261.5px;
+    font-size: 9rem;
+    background-color: black;
+    color: red;
+}
+
+.normal1{
+    /* border: .5px solid red; */
+    width: 99.2%;
+    height: 220px;
+    top: 17rem;
+    position: absolute;
+}
+
+.bold{
+    /* border: .5px solid red; */
+    width: 99.2%;
+    height: 200px;
+    top: 31rem;
+    position: absolute;
+    color: forestgreen;
+    font-weight: bolder;
+}
+
+.normal2{
+    /* border: .5px solid yellow; */
+    width: 99.2%;
+    height: 250px;
+    top: 43rem;
+    position: absolute;
+}
+
+.zoom{
+    transition: transform .1s;
+}
+
+.zoom:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+
+.links{
+    /* border: .5px solid silver; */
+    width: 23%;
+    margin-left: 75.3%;
+    position: absolute;
+    margin-top: 0px;
+    float: left;
+    height: 493px
+}
+
+.footer{
+    height: 50px;
+    top: 60rem;
+    /* border: .5px solid goldenrod; */
+    width: 99.2%;
+    background-color: red;
+    position: absolute;
+
+    }
+    .link{
+        height: 50px;
+        width: 50px;
+       }
+       
+       .links{
+           width: 100px;
+           height: 50px;
+       }

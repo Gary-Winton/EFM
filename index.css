@@ -1,0 +1,84 @@
+.body{
+    /* border: 5px solid orange; */
+height: 890px;
+width: 99%;
+
+}
+
+
+
+.logo{
+    margin-right: auto;
+    /* border: 2px solid purple; */
+    width: 23%;
+    height: 400px;
+    float: left;
+    position: absolute;
+}
+
+.heading{
+    /* border: 2px solid yellow; */
+    width: 75%;
+    margin-left: 23%;
+    position: absolute;
+    margin-top: 0px;
+    float: left;
+    height: 400px;
+    font-size: 9rem;
+    background-color: black;
+    color: red;
+}
+
+.two{
+    /* border: 5px solid gold; */
+    margin-left: auto;
+    top: 56.7%;
+    position: absolute;
+}
+
+.h1{
+    /* border: 5px solid blueviolet; */
+    margin-left: 33.5%;
+    top: 56.7%;
+    position: absolute;
+    width: 63.75%;
+    height: 67.67%;
+}
+
+.zoom{
+    transition: transform .1s;
+}
+
+.zoom:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+.links{
+    /* border: 5px solid silver; */
+    width: 23%;
+    margin-left: 75.3%;
+    position: absolute;
+    margin-top: 0px;
+    float: left;
+    height: 493px
+}
+
+.footer{
+    height: 50px;
+    top: 70%;
+    /* border: 5px solid goldenrod; */
+    width: 99.2%;
+    background-color: red;
+
+    }
+    .link{
+        height: 50px;
+        width: 50px;
+       }
+       
+       .links{
+           width: 100px;
+           height: 50px;
+       }

@@ -1,0 +1,90 @@
+.logo{
+    margin-right: auto;
+    /* border: 2px solid purple; */
+    width: 29%;
+    height: 250px;
+    float: left;
+    position: absolute;
+    background-color: black;
+}
+
+
+.heading{
+    /* border: 2px solid yellow; */
+    width: 70%;
+    margin-left: 29%;
+    position: absolute;
+    margin-top: 0px;
+    float: left;
+    height: 250px;
+    font-size: 9rem;
+    background-color: black;
+    color: red;
+    font-weight: 50;
+}
+
+.bold1{
+    /* border: .5px solid red; */
+    width: 99.2%;
+    height: 63px;
+    top: 15.9rem;
+    position: absolute;
+    font: bolder;
+    color: forestgreen;
+}
+
+.normal{
+    /* border: .5px solid red; */
+    width: 99.2%;
+    height: 150px;
+    top: 20rem;
+    position: absolute;
+}
+
+.bold2{
+    /* border: .5px solid yellow; */
+    width: 99.2%;
+    height: 150px;
+    top: 30rem;
+    position: absolute;
+    font: bolder;
+    color: forestgreen;
+}
+
+.zoom{
+    transition: transform .1s;
+}
+
+.zoom:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+.links{
+    /* border: 5px solid silver; */
+    width: 23%;
+    margin-left: 75.3%;
+    position: absolute;
+    margin-top: 0px;
+    float: left;
+    height: 493px
+}
+
+.footer{
+    height: 50px;
+    top: 41.5rem;
+    /* border: 1px solid goldenrod; */
+    width: 99.2%;
+    background-color: red;
+    position: absolute;
+    }
+    .link{
+        height: 50px;
+        width: 50px;
+       }
+       
+       .links{
+           width: 100px;
+           height: 50px;
+       }
